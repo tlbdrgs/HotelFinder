@@ -7,10 +7,11 @@ import com.main.hotelfinder.entities.Room;
 import com.main.hotelfinder.repositories.HotelRepository;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
-import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 
 @Service
@@ -21,16 +22,19 @@ public class HotelService {
     @PostConstruct
     public void initialization() throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        File jsonFile = new File("src/main/resources/data/hotels.json").getAbsoluteFile();
-        List<Hotel> hotels = mapper.readValue(jsonFile, new TypeReference<List<Hotel>>() {});
 
-        for (Hotel hotel : hotels) {
-            for (Room room : hotel.getRooms()) {
-                room.setHotel(hotel);
+        ClassPathResource resource = new ClassPathResource("data/hotels.json");
+        try (InputStream inputStream = resource.getInputStream()) {
+            List<Hotel> hotels = mapper.readValue(inputStream, new TypeReference<>() {});
+
+            for (Hotel hotel : hotels) {
+                for (Room room : hotel.getRooms()) {
+                    room.setHotel(hotel);
+                }
             }
-        }
 
-        hotelRepository.saveAll(hotels);
+            hotelRepository.saveAll(hotels);
+        }
     }
 
     public List<Hotel> getAllHotels() {

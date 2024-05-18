@@ -1,0 +1,47 @@
+.reviewInput {
+  width: 100%;
+  padding-top: 7%;
+}
+
+.reviewArea {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.roomArea {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.hotelArea {
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.mainApp {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  column-gap: 10px;
+}
+
+.loginReview {
+  width: 100%;
+  padding-right: 10px;
+}
+
+.loginButton {
+  position: absolute;
+  top:0;
+  right:0;
+  background: green;
+}
+
+.reviewGrid {
+  padding-bottom: 7%;
+}
+
+body {
+  background-color: #8C92AC;
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 501,
+    "message": "wow very nice hotel",
+    "hotel": {
+      "id": 1
+    }
+  },
+  {
+    "id": 502,
+    "message": "I didn't like this",
+    "hotel": {
+      "id": 1
+    }
+  },
+  {
+    "id": 503,
+    "message": "AMAZING HOTEL",
+    "hotel": {
+      "id": 3
+    }
+  }
+]

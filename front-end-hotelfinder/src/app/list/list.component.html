@@ -1,0 +1,12 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      Rooms
+    </mat-card-title>
+  </mat-card-header>
+  <mat-selection-list class="mat-elevation-z8" [multiple]="false" hideSingleSelectionIndicator [(ngModel)]="selectedOption" (ngModelChange)="onNgModelChange($event)">
+    <mat-list-option *ngFor="let room of rooms">
+      Room Number: {{ room.roomNumber }}, Price: {{ room.price }}, Is room available? {{ room.isAvailable ? 'Yes' : 'No' }}
+    </mat-list-option>
+  </mat-selection-list>
+</mat-card>

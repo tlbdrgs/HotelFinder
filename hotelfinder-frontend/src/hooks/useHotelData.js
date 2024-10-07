@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { fetchAllHotels, fetchNearbyHotels } from '../repository/hotelRepository';
+import { fetchAllHotels, fetchNearbyHotels } from '../services/hotelService';
 
 const useHotelData = (location) => {
   const [hotels, setHotels] = useState([]);

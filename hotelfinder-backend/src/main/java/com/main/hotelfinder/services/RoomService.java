@@ -21,12 +21,12 @@ public class RoomService {
         return roomRepository.findByHotelId(hotelId);
     }
 
-    public void markBooking(Room room) {
-        room.setAvailable(!room.isAvailable());
-        roomRepository.save(room);
-    }
+//    public void markBooking(Room room) {
+//        room.setAvailable(!room.isAvailable());
+//        roomRepository.save(room);
+//    }
 
-    public Room getRoomByNumber(int roomNumber) {
+    public Room getRoomByNumber(String roomNumber) {
         return roomRepository.findByRoomNumber(roomNumber);
     }
 }

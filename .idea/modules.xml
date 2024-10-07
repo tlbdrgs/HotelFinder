@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/HotelFinder.iml" filepath="$PROJECT_DIR$/.idea/HotelFinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hotelfinder-backend/hotelfinder.iml" filepath="$PROJECT_DIR$/hotelfinder-backend/hotelfinder.iml" />
     </modules>
   </component>
 </project>

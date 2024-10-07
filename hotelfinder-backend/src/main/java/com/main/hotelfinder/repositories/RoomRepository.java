@@ -10,5 +10,5 @@ import java.util.List;
 public interface RoomRepository extends JpaRepository<Room, Integer> {
     List<Room> findByHotelId(long hotelId);
 
-    Room findByRoomNumber(int roomNumber);
+    Room findByRoomNumber(String roomNumber);
 }

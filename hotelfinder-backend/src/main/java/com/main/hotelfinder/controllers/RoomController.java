@@ -33,10 +33,10 @@ public class RoomController {
     }
 
     @PostMapping("/bookRoom/{roomNumber}")
-    public ResponseEntity<?> addBooking(@PathVariable("roomNumber") int roomNumber) {
+    public ResponseEntity<?> addBooking(@PathVariable("roomNumber") String roomNumber) {
         try {
             Room room = roomService.getRoomByNumber(roomNumber);
-            roomService.markBooking(room);
+//            roomService.markBooking(room);
             return ResponseEntity.ok().body("Room availability updated successfully");
         } catch (Exception exception) {
             return ResponseEntity.internalServerError().body("Failed to update room availability");

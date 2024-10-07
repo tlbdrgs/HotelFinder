@@ -6,20 +6,20 @@
     "longitude": 23.598674125224626,
     "rooms": [
       {
-        "roomNumber": 210,
-        "type": 2,
+        "roomNumber": "210",
+        "type": "DOUBLE",
         "price": 200,
         "isAvailable": true
       },
       {
-        "roomNumber": 125,
-        "type": 1,
+        "roomNumber": "125",
+        "type": "SINGLE",
         "price": 350,
         "isAvailable": true
       },
       {
-        "roomNumber": 87,
-        "type": 1,
+        "roomNumber": "87",
+        "type": "SINGLE",
         "price": 300,
         "isAvailable": false
       }
@@ -32,8 +32,8 @@
     "longitude": 23.605990381045697,
     "rooms": [
       {
-        "roomNumber": 41,
-        "type": 3,
+        "roomNumber": "41",
+        "type": "SUITE",
         "price": 240,
         "isAvailable": true
       }
@@ -46,20 +46,20 @@
     "longitude": 23.60182699638966,
     "rooms": [
       {
-        "roomNumber": 32,
-        "type": 2,
+        "roomNumber": "32",
+        "type": "DOUBLE",
         "price": 410,
         "isAvailable": false
       },
       {
-        "roomNumber": 21,
-        "type": 2,
+        "roomNumber": "21",
+        "type": "DOUBLE",
         "price": 350,
         "isAvailable": true
       },
       {
-        "roomNumber": 64,
-        "type": 3,
+        "roomNumber": "64",
+        "type": "SUITE",
         "price": 300,
         "isAvailable": true
       }
@@ -72,14 +72,14 @@
     "longitude": 21.227226,
     "rooms": [
       {
-        "roomNumber": 101,
-        "type": 1,
+        "roomNumber": "101",
+        "type": "SINGLE",
         "price": 200,
         "isAvailable": true
       },
       {
-        "roomNumber": 102,
-        "type": 1,
+        "roomNumber": "102",
+        "type": "SINGLE",
         "price": 220,
         "isAvailable": false
       }
@@ -92,20 +92,20 @@
     "longitude": 21.222536,
     "rooms": [
       {
-        "roomNumber": 201,
-        "type": 2,
+        "roomNumber": "201",
+        "type": "DOUBLE",
         "price": 300,
         "isAvailable": true
       },
       {
-        "roomNumber": 202,
-        "type": 2,
+        "roomNumber": "202",
+        "type": "DOUBLE",
         "price": 320,
         "isAvailable": true
       },
       {
-        "roomNumber": 203,
-        "type": 3,
+        "roomNumber": "203",
+        "type": "SUITE",
         "price": 400,
         "isAvailable": false
       }
@@ -118,14 +118,14 @@
     "longitude": 21.223405,
     "rooms": [
       {
-        "roomNumber": 301,
-        "type": 3,
+        "roomNumber": "301",
+        "type": "SUITE",
         "price": 500,
         "isAvailable": true
       },
       {
-        "roomNumber": 302,
-        "type": 2,
+        "roomNumber": "302",
+        "type": "DOUBLE",
         "price": 350,
         "isAvailable": true
       }
@@ -138,20 +138,20 @@
     "longitude": 21.223978,
     "rooms": [
       {
-        "roomNumber": 401,
-        "type": 3,
+        "roomNumber": "401",
+        "type": "SUITE",
         "price": 450,
         "isAvailable": false
       },
       {
-        "roomNumber": 402,
-        "type": 2,
+        "roomNumber": "402",
+        "type": "DOUBLE",
         "price": 320,
         "isAvailable": true
       },
       {
-        "roomNumber": 403,
-        "type": 1,
+        "roomNumber": "403",
+        "type": "SINGLE",
         "price": 250,
         "isAvailable": true
       }
@@ -164,19 +164,19 @@
     "longitude": 21.224427,
     "rooms": [
       {
-        "roomNumber": 501,
-        "type": 1,
+        "roomNumber": "501",
+        "type": "SINGLE",
         "price": 180,
         "isAvailable": true
       },
       {
-        "roomNumber": 502,
-        "type": 1,
+        "roomNumber": "502",
+        "type": "SINGLE",
         "price": 200,
         "isAvailable": true
       }
     ]
-    },
+  },
   {
     "id": 9,
     "name": "Hotel Ramada Timisoara",
@@ -184,26 +184,26 @@
     "longitude": 21.210000,
     "rooms": [
       {
-        "roomNumber": 101,
-        "type": 1,
+        "roomNumber": "101",
+        "type": "SINGLE",
         "price": 250,
         "isAvailable": true
       },
       {
-        "roomNumber": 102,
-        "type": 2,
+        "roomNumber": "102",
+        "type": "DOUBLE",
         "price": 300,
         "isAvailable": false
       },
       {
-        "roomNumber": 103,
-        "type": 1,
+        "roomNumber": "103",
+        "type": "SINGLE",
         "price": 220,
         "isAvailable": true
       },
       {
-        "roomNumber": 104,
-        "type": 3,
+        "roomNumber": "104",
+        "type": "SUITE",
         "price": 350,
         "isAvailable": true
       }

@@ -64,5 +64,149 @@
         "isAvailable": true
       }
     ]
+  },
+  {
+    "id": 4,
+    "name": "Ibis Timișoara",
+    "latitude": 45.749130,
+    "longitude": 21.227226,
+    "rooms": [
+      {
+        "roomNumber": 101,
+        "type": 1,
+        "price": 200,
+        "isAvailable": true
+      },
+      {
+        "roomNumber": 102,
+        "type": 1,
+        "price": 220,
+        "isAvailable": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Mercure Timișoara",
+    "latitude": 45.754493,
+    "longitude": 21.222536,
+    "rooms": [
+      {
+        "roomNumber": 201,
+        "type": 2,
+        "price": 300,
+        "isAvailable": true
+      },
+      {
+        "roomNumber": 202,
+        "type": 2,
+        "price": 320,
+        "isAvailable": true
+      },
+      {
+        "roomNumber": 203,
+        "type": 3,
+        "price": 400,
+        "isAvailable": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Hotel Timisoara",
+    "latitude": 45.750000,
+    "longitude": 21.223405,
+    "rooms": [
+      {
+        "roomNumber": 301,
+        "type": 3,
+        "price": 500,
+        "isAvailable": true
+      },
+      {
+        "roomNumber": 302,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "North Star Continental Resort",
+    "latitude": 45.748975,
+    "longitude": 21.223978,
+    "rooms": [
+      {
+        "roomNumber": 401,
+        "type": 3,
+        "price": 450,
+        "isAvailable": false
+      },
+      {
+        "roomNumber": 402,
+        "type": 2,
+        "price": 320,
+        "isAvailable": true
+      },
+      {
+        "roomNumber": 403,
+        "type": 1,
+        "price": 250,
+        "isAvailable": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Hotel Central",
+    "latitude": 45.748715,
+    "longitude": 21.224427,
+    "rooms": [
+      {
+        "roomNumber": 501,
+        "type": 1,
+        "price": 180,
+        "isAvailable": true
+      },
+      {
+        "roomNumber": 502,
+        "type": 1,
+        "price": 200,
+        "isAvailable": true
+      }
+    ]
+    },
+  {
+    "id": 9,
+    "name": "Hotel Ramada Timisoara",
+    "latitude": 45.750000,
+    "longitude": 21.210000,
+    "rooms": [
+      {
+        "roomNumber": 101,
+        "type": 1,
+        "price": 250,
+        "isAvailable": true
+      },
+      {
+        "roomNumber": 102,
+        "type": 2,
+        "price": 300,
+        "isAvailable": false
+      },
+      {
+        "roomNumber": 103,
+        "type": 1,
+        "price": 220,
+        "isAvailable": true
+      },
+      {
+        "roomNumber": 104,
+        "type": 3,
+        "price": 350,
+        "isAvailable": true
+      }
+    ]
   }
 ]
